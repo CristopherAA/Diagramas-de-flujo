@@ -64,14 +64,19 @@ body{
 }
 /* ----------------- Figuras ----------------------------*/ 
 .figura{
-    border: solid 1px black;
+    border: solid 2px black;
     position: absolute;
     user-select: none;
+    touch-action: none;
     padding: 0.5em;
 }
 .figura p{
     margin: 0;
+    user-select: none;
 }
 .circulo{
     border-radius: 50%;
+}
+.rectangulo{
+    border-radius: 10px;
 }

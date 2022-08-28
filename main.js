@@ -54,7 +54,7 @@ function dragMoveListener (event) {
 
 interact('.tap-target')
   .on('tap', function (event) {
-    event.currentTarget.style.color = "blue";
+    event.currentTarget.setAttribute('contenteditable',"true");
     event.preventDefault()
   })
   .on('doubletap', function (event) {
@@ -63,6 +63,6 @@ interact('.tap-target')
     event.preventDefault()
   })
   .on('hold', function (event) {
-    event.currentTarget.classList.toggle('rotate')
-    event.currentTarget.classList.remove('large')
+    event.currentTarget.remove();
+    event.preventDefault()
   })
