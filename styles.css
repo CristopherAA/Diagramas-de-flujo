@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: ;
+    font-family: 'Montserrat','Arial';
+    margin: 0;
+}
+/* Seleccionar formas */
+header{
+    height: 10vh;
+    color: #1D3153;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F3F3F9;
+    width: 100%;
+    border-bottom: 2px solid;
+}
+.selectable-shapes{
+    display: flex;
+}
+.selectable-shape{
+    padding: 0.5em;
+    border: solid black 2px;
+    margin: 0.5em;
+    cursor: pointer;
+    background-color: #fffffe;
+}
+
+h2{
+    margin: 0 0 0 0;
+}
+
+/* ---------------------------------- */
+
+.shapes-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(90vh - 1px);
+}
+.shapes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 85%;
+    background-image: url("https://img.freepik.com/vector-premium/textura-papel-cuadrado-pagina-cuaderno-jaula_159025-44.jpg?w=1000");
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.shape{
+    position: absolute;
+    padding: 0.5em;
+    border: solid black 2px;
+}
+.shape p{
+    margin: 0;
+}
+.circle{
+    border-radius: 50%;
+}
+
