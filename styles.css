@@ -6,58 +6,54 @@ body{
 }
 /* Seleccionar formas */
 header{
-    height: 10vh;
     color: #1D3153;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color:#F3F3F9;
     width: 100%;
     border-bottom: 2px solid;
+    text-align: center;
 }
-.selectable-shapes{
-    display: flex;
-}
-.selectable-shape{
-    padding: 0.5em;
-    border: solid black 2px;
-    margin: 0.5em;
-    cursor: pointer;
-    background-color: #fffffe;
+h1{
+    margin:0;
 }
 
-h2{
-    margin: 0 0 0 0;
-}
-
-/* ---------------------------------- */
-
-.shapes-container{
-    width: 100%;
+/*  Menu  */
+.menu{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(90vh - 1px);
+    margin-bottom: 1em;
 }
-.shapes{
+
+/* ------------  Seleccionar figuras ----------------------------*/ 
+.seleccionar-figura{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 85%;
-    height: 85%;
-    background-image: url("https://img.freepik.com/vector-premium/textura-papel-cuadrado-pagina-cuaderno-jaula_159025-44.jpg?w=1000");
+    flex-direction: column;
+}
+.figuras-seleccionables{
+    display: flex;
+}
+.figuras-seleccionables div{
     border: 1px solid black;
-    border-radius: 10px;
-}
-.shape{
-    position: absolute;
+    margin-right: 0.5em;
     padding: 0.5em;
-    border: solid black 2px;
+    cursor: pointer;
 }
-.shape p{
-    margin: 0;
-}
-.circle{
+.circulo{
     border-radius: 50%;
+}
+
+/* ---------------- Contenedor de figuras --------------------------- */ 
+.figuras-contenedor{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.figuras{
+    width: 85%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 

@@ -1,8 +1,8 @@
-selectableShapes = document.querySelectorAll('.selectable');
+selectableShapes = document.querySelectorAll('.seleccionable');
 
 selectableShapes.forEach(element => {
     element.addEventListener('click',()=>{
-        document.querySelector('.shapes').innerHTML +=
+        document.querySelector('.figuras').innerHTML +=
         `
         <div class="circle shape draggable tap-target">
                 <p>Soy un circulo</p>
