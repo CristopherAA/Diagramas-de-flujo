@@ -39,9 +39,7 @@ h1{
     cursor: pointer;
     user-select: none;
 }
-.circulo{
-    border-radius: 50%;
-}
+
 
 body{
     background-color:  #F3F3F9;
@@ -69,4 +67,11 @@ body{
     border: solid 1px black;
     position: absolute;
     user-select: none;
+    padding: 0.5em;
+}
+.figura p{
+    margin: 0;
+}
+.circulo{
+    border-radius: 50%;
 }

@@ -4,8 +4,8 @@ selectableShapes.forEach(element => {
     element.addEventListener('click',()=>{
         document.querySelector('.figuras').innerHTML +=
         `
-        <div class="figura draggable tap-target">
-                <p>Soy un circulo</p>
+        <div class="figura ${element.classList[0]} draggable tap-target">
+                <p>Soy un ${element.classList[0]}</p>
         </div>
         `;
     })
